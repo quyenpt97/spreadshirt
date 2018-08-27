@@ -3,7 +3,126 @@
     margin: 0;
     padding: 0;
 }
-
+@font-face{
+    font-family:'mobilemarketplace';
+    src:url("../fonts/mm.eot?v=5.18.0_d722fca6118b345a00cdbd03cc34341a5bcc7632");
+    src:url("../fonts/mm.eot?#iefixv=5.18.0_d722fca6118b345a00cdbd03cc34341a5bcc7632") format("embedded-opentype"),
+        url("../fonts/mm.woff?v=5.18.0_d722fca6118b345a00cdbd03cc34341a5bcc7632") format("woff"),
+        url("../fonts/mm.ttf?v=5.18.0_d722fca6118b345a00cdbd03cc34341a5bcc7632") format("truetype");
+    font-weight:normal;
+    font-style:normal
+}
+.button{
+    font-family: mobilemarketplace;
+    display: inline-block;
+    font-size: 2.5rem;
+    font-weight: normal;
+    line-height: 1;
+    margin-right: 0;
+    vertical-align: middle;
+    font-size: 1.8rem;
+    margin-right: 0.1em;
+    font-weight: normal;
+}
+.share:before{    
+    content: "";  
+}
+.zoom:before{    
+    content: "z";  
+}
+.heart:before{
+    content: "";
+}
+.cart:before{
+    content: "c";
+}
+.men:before{
+    content: "";
+}
+.search:before{
+    content: "s";
+}
+.women:before{
+    content: "";
+}
+.men:before{
+    content: "";
+}
+.cup:before{
+    content: "";
+}
+.phone:before{
+    content: "";
+}
+.star:before{
+    content: "\e640";
+}
+.star-half:before{
+    content: "\e934";
+}
+.star-light:before{
+    content: "\66";
+}
+.kid:before{
+    content: "";
+}
+.backward:after{
+    content:"p"
+}
+.forward:after{
+    content:"n"
+}
+.first:after{
+    content:""
+}
+.last:after{
+    content:""
+}
+.preview:after{
+    content:'L'
+}
+.edit:before{
+    content:"";
+}
+.add:before{
+    content:"+";
+}
+.remove:before{
+    content:"d";
+}
+.manage:before{
+    content:"";
+}
+.link-back:before{
+    content:"b"
+}
+.Icon.clearSearch:after{
+    content:'x'
+}
+.addToBasket.button .Icon:before{
+    content:'c';
+}
+.Wrapper.details .button.favorite:before{
+    content:""
+}
+.broken-heart-icon:after{
+    content:'\e619'
+}
+.scale:before{
+    content:""
+}
+.move:before{
+    content:""
+}
+.tshirt{
+    content:'';
+}
+.question{
+    content: '';
+}
+.contact{
+    content: '';
+}
 .wrapperRealatedProduct {
     font-family: "Montserrat", sans-serif;
     margin: 0 auto;
